@@ -1,13 +1,20 @@
 {
   "expo": {
-    "name": "follow-along",
+    "name": "FollowAlong",
     "slug": "follow-along",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "followalong",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.peakermap.followalong",
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleDisplayName": "Follow Along",
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
